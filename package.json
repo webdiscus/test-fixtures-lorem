@@ -1,0 +1,42 @@
+{
+  "name": "@test-fixtures/lorem",
+  "version": "0.0.1",
+  "description": "Test fixture as a JS module containing the text Lorem Ipsum",
+  "keywords": [
+    "test",
+    "fixture",
+    "Lorem",
+    "Ipsum",
+    "text"
+  ],
+  "license": "ISC",
+  "author": "webdiscus (https://github.com/webdiscus)",
+  "maintainers": [
+    "webdiscus (https://github.com/webdiscus)"
+  ],
+  "homepage": "https://github.com/webdiscus/test-fixtures-lorem",
+  "bugs": {
+    "url": "https://github.com/webdiscus/test-fixtures-lorem/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdiscus/test-fixtures-lorem.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "publish:public": "npm publish --access public"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

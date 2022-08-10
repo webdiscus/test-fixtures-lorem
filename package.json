@@ -1,13 +1,14 @@
 {
   "name": "@test-fixtures/lorem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Test fixture as a JS module containing the text Lorem Ipsum",
   "keywords": [
     "test",
     "fixture",
+    "text",
+    "JavaScript",
     "Lorem",
-    "Ipsum",
-    "text"
+    "Ipsum"
   ],
   "license": "ISC",
   "author": "webdiscus (https://github.com/webdiscus)",
@@ -26,7 +27,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "main": "src/index.js",
+  "main": "src/fixture-lorem.js",
   "scripts": {
     "publish:public": "npm publish --access public"
   },
